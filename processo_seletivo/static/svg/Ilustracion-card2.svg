@@ -1,0 +1,42 @@
+<svg id="svgCard" class="svgCard" viewBox="0 0 295 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ilustracion-card2">
+<g id="inlineCard" filter="url(#filter0_dd)">
+<circle cx="152.5" cy="149.5" r="105.5" fill="url(#paint0_linear)"/>
+</g>
+<g id="Group 22">
+<path id="Vector" d="M202 115H101C98.2386 115 96 117.239 96 120V179.53C96 182.291 98.2386 184.53 101 184.53H202C204.761 184.53 207 182.291 207 179.53V120C207 117.239 204.761 115 202 115Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path id="Vector_2" d="M96 126.59H207" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path id="Vector_3" d="M158.2 154.21H148.96V155.75H158.2V154.21Z" fill="white"/>
+<path id="Vector_4" d="M153.58 147.43L155.89 150.36L158.2 153.28H153.58H148.96L151.27 150.36L153.58 147.43Z" fill="white"/>
+<path id="Vector_5" d="M122.08 133.53L126.58 137.28C126.93 137.576 127.196 137.959 127.35 138.39L136.18 163.26C136.283 163.585 136.283 163.935 136.18 164.26L135.36 166.69C135.281 166.929 135.26 167.183 135.298 167.432C135.336 167.681 135.433 167.917 135.581 168.121C135.728 168.325 135.922 168.491 136.146 168.606C136.37 168.72 136.618 168.78 136.87 168.78H164.07" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_6" d="M140.98 175.53C142.14 175.53 143.08 174.59 143.08 173.43C143.08 172.27 142.14 171.33 140.98 171.33C139.82 171.33 138.88 172.27 138.88 173.43C138.88 174.59 139.82 175.53 140.98 175.53Z" fill="white"/>
+<path id="Vector_7" d="M161.98 175.53C163.14 175.53 164.08 174.59 164.08 173.43C164.08 172.27 163.14 171.33 161.98 171.33C160.82 171.33 159.88 172.27 159.88 173.43C159.88 174.59 160.82 175.53 161.98 175.53Z" fill="white"/>
+<path id="Vector_8" d="M162.4 162.09H141.58C141.279 162.088 140.987 161.99 140.746 161.81C140.505 161.63 140.327 161.378 140.24 161.09L134.47 143.8C134.397 143.585 134.378 143.356 134.413 143.132C134.448 142.908 134.536 142.696 134.671 142.513C134.805 142.331 134.982 142.184 135.185 142.084C135.389 141.984 135.613 141.935 135.84 141.94L171.66 142.7C171.865 142.704 172.067 142.752 172.251 142.842C172.435 142.932 172.598 143.061 172.727 143.219C172.857 143.378 172.95 143.564 173.001 143.763C173.051 143.961 173.058 144.169 173.02 144.37L171.64 151.98" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_9" d="M180.63 162.41L176 165.6L173.23 170.43C173 170.83 172.45 170.89 172.23 170.53L168.6 163.2L165.2 156.48C165.159 156.37 165.149 156.25 165.172 156.134C165.194 156.019 165.249 155.911 165.328 155.825C165.408 155.738 165.51 155.674 165.623 155.642C165.736 155.609 165.856 155.609 165.97 155.64L172.97 158.46L180.58 161.46C180.666 161.504 180.738 161.57 180.791 161.65C180.843 161.731 180.873 161.824 180.879 161.921C180.884 162.017 180.863 162.113 180.82 162.198C180.776 162.284 180.711 162.357 180.63 162.41Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd" x="0" y="0" width="295" height="295" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feMorphology radius="8" operator="erode" in="SourceAlpha" result="effect1_dropShadow"/>
+<feOffset dx="1" dy="10"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.788235 0 0 0 0 0.447059 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feMorphology radius="8" operator="erode" in="SourceAlpha" result="effect2_dropShadow"/>
+<feOffset dx="-5" dy="-2"/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="153.064" y1="255" x2="153.064" y2="44" gradientUnits="userSpaceOnUse">
+<stop offset="0.195652" stop-color="#FFC972"/>
+<stop offset="0.442708" stop-color="#FFC05B" stop-opacity="0.8"/>
+<stop offset="0.619792" stop-color="#FFB33C"/>
+<stop offset="0.78125" stop-color="#FCA221" stop-opacity="0.97"/>
+</linearGradient>
+</defs>
+</svg>

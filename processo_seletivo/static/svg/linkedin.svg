@@ -1,0 +1,7 @@
+<svg id="linkedinSVG" class="linkedinSVG" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="linkedin">
+<path id="linkedin_2" class="linkedin_2" d="M2 24C2 13.5 10.5 2 23.5 2C36.5 2 46 12 46 24C46 33.5 38.5 47 23.5 47C11 47 2 34.5 2 24Z" stroke="white" stroke-width="4"/>
+<path id="linkedin_3" class="linkedin_3" d="M15.5 34.5V20.5M23.5 34.5V22.5M23.5 20.5V22.5M23.5 22.5C23.5 22.5 28.5 22.5 31.5 22.5C34.5 22.5 34.5 25 34.5 25V34.5" stroke="white" stroke-width="4"/>
+<circle id="linkedin_4" class="linkedin_4" cx="15.5" cy="15.5" r="2.5" fill="white"/>
+</g>
+</svg>

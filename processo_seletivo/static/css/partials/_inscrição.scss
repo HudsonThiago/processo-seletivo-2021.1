@@ -1,0 +1,140 @@
+#Inscrição {
+    width: 99.2%;
+    height: 100vh;
+
+    display: flex;
+    background: $primary-light;
+    @include responsive(s) {
+        display: flex;
+        flex-direction: column;
+        height: 160vh;
+    }
+    
+}
+
+#Inscrição aside {
+    width: 50%;
+
+    @include flexbox;
+    flex-direction: column;
+
+    @include responsive(s) {
+        width: 100%;
+        padding-top: 10rem;
+    }
+    h3 {
+        margin: 4rem 0;
+        color: $white-normal;
+        font: 500 clamp(5rem,8vw,8.1rem)/1 'Roboto';
+        line-height: 58,59px;
+        span {
+            color: $secondary-normal;
+            font-weight: 700;
+
+            @include flexbox;
+        }
+    }
+    .rocket {
+        width: 50%;
+        margin-top: 3rem;
+    }
+    @include responsive(s) {
+        margin-top: 0.1rem;
+    }
+}   
+
+#form {
+    margin: 0 auto;
+    z-index: 100;
+
+    @include flexbox;
+    
+    fieldset {
+        font: 300 4.5rem/1 "Roboto",sans-serif;
+        width: 70rem;
+        height: 70vh;
+        border-radius: 40px;
+        border: 0px;
+        padding: 6rem 10rem;
+        
+        position: relative;
+        z-index: 2;
+        margin-top: 6rem;
+
+        color: #ffffff;
+        background-color: rgba(222, 222, 222, 0.233);
+
+        @include responsive(s) {
+            width: 100%;
+            height: 67vh;
+
+            padding: 3rem;
+            font-size: 4rem;
+        }
+        input {
+            font-size: 4rem;
+
+            height: 6rem;
+            width: 25vw;
+            border: none;
+            border-radius: 10px;
+            margin: 2rem 0;
+            box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+            &:focus {
+                border: 1.2px solid $primary-dark;
+                outline: none;
+            }
+            @include responsive(s) {
+                width: 100%;
+                padding: 3rem;
+                font-size: 4rem;
+            }
+        }
+
+        #btn-form {
+            height: 35%;
+            width: 35%;
+            background: linear-gradient(0deg, #FFC972 19.57%, rgba(255, 192, 91, 0.8) 44.27%, #FFB33C 61.98%, rgba(252, 162, 33, 0.97) 78.12%);
+            opacity: 0.8;
+            box-shadow: -5px -2px 50px -8px rgba(255, 255, 255, 0.25), 1px 10px 15px -8px #FFB33C;
+        
+            display: inline-block;
+            border-radius: 50%;
+            border: none;
+
+            position: absolute;
+            top: 82%;
+            left: 30%;
+            transition: ease 0.7s;
+            cursor: pointer;
+            @include responsive(s) {
+                left: 10%;
+                width: 80%;
+                height: 12%;
+                border-radius: 40px;
+                margin-top: 2%;
+            }
+            
+            svg {
+                position: absolute;
+                width: 50%;
+                top: 37%;
+                left: 25%;
+                @include responsive(s) {
+                    width: 20%;
+                    left: 40%;
+                    top: 29%;
+                }
+            }
+
+            &:hover {
+                opacity: 1;
+                transform: translate3d(0,-15px,0);
+            }
+            @include responsive(s) {
+                top: 80%;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,48 @@
+<svg id="svgCard" class="svgCard" viewBox="0 0 295 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ilustracion-card">
+<g id="inlineCard" filter="url(#filter0_dd)">
+<circle cx="152.5" cy="149.5" r="105.5" fill="url(#paint0_linear)"/>
+</g>
+<g id="Group 23">
+<path id="Vector" d="M122.79 154H82.24C81.3807 154 80.5566 153.659 79.949 153.051C79.3414 152.443 79 151.619 79 150.76V108.24C79 107.381 79.3414 106.557 79.949 105.949C80.5566 105.341 81.3807 105 82.24 105H144.24C145.099 105 145.923 105.341 146.531 105.949C147.139 106.557 147.48 107.381 147.48 108.24V124.47" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_2" d="M79.01 113.95H147.47" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path id="Vector_3" d="M191.29 174.48H170.18V178H191.29V174.48Z" fill="white"/>
+<path id="Vector_4" d="M180.74 159L186.02 165.69L191.3 172.37H180.74H170.18L175.46 165.69L180.74 159Z" fill="white"/>
+<path id="Vector_5" d="M221.24 137H140.24C137.479 137 135.24 139.239 135.24 142V189C135.24 191.761 137.479 194 140.24 194H221.24C224.001 194 226.24 191.761 226.24 189V142C226.24 139.239 224.001 137 221.24 137Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path id="Vector_6" d="M135.24 146.5H226.24" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path id="Vector_7" d="M95.24 122V146" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_8" d="M102.24 121H127.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_9" d="M102.24 127H127.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_10" d="M102.24 133H127.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_11" d="M104.24 139H127.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_12" d="M84.24 121H90.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_13" d="M85.24 126H90.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_14" d="M85.24 131H90.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_15" d="M85.24 136H90.24" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd" x="0" y="0" width="295" height="295" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feMorphology radius="8" operator="erode" in="SourceAlpha" result="effect1_dropShadow"/>
+<feOffset dx="1" dy="10"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.788235 0 0 0 0 0.447059 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feMorphology radius="8" operator="erode" in="SourceAlpha" result="effect2_dropShadow"/>
+<feOffset dx="-5" dy="-2"/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="153.064" y1="255" x2="153.064" y2="44" gradientUnits="userSpaceOnUse">
+<stop offset="0.195652" stop-color="#FFC972"/>
+<stop offset="0.442708" stop-color="#FFC05B" stop-opacity="0.8"/>
+<stop offset="0.619792" stop-color="#FFB33C"/>
+<stop offset="0.78125" stop-color="#FCA221" stop-opacity="0.97"/>
+</linearGradient>
+</defs>
+</svg>

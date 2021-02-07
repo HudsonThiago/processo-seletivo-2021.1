@@ -1,0 +1,8 @@
+<svg id="instaSVG" class="instaSVG" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="insta">
+<path id="insta_2" class="insta_2" d="M2 24C2 13.5 10.5 2 23.5 2C36.5 2 46 12 46 24C46 33.5 38.5 47 23.5 47C11 47 2 34.5 2 24Z" stroke="white" stroke-width="4"/>
+<path id="insta_3" class="insta_3" d="M12 32V18C12 16 13.5 13 16.5 13H31.5C33.5 13 36.5 15.5 36.5 18V32C36 35 34 37 31.5 37L16 36.5C13.5 36.5 12 34.5 12 32Z" stroke="white" stroke-width="3"/>
+<circle id="insta_4" class="insta_4" cx="23.5" cy="24.5" r="4.5" stroke="white" stroke-width="3"/>
+<circle id="insta_5" class="insta_5" cx="31.5" cy="17.5" r="1.5" fill="white"/>
+</g>
+</svg>

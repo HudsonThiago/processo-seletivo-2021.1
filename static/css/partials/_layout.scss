@@ -1,0 +1,50 @@
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Container device
+$container-xl: 1440px;
+$container-l: 1140px;
+$container-m: 960px;
+$container-s: 540px;
+
+// Mixins of media query
+@mixin responsive($device) {
+
+    @if $device == xl {
+        // For resolutions upper than 1440px
+        @media screen and (min-width: $container-xl) {
+            @content;
+        }
+    }
+
+    @if $device == l {
+        // For resolutions upper than 1140px and 1440px
+        @media screen and (max-width: $container-xl) and (min-width: $container-l) {
+            @content;
+        }
+    }
+
+    @if $device == m {
+        // For resolutions upper than 960px and 1140px
+        @media screen and (max-width: $container-l) and (min-width: $container-m) {
+            @content;
+        }
+    }
+
+    @if $device == xs {
+        // For resolutions less than 960px
+        @media screen and (max-width: $container-m) {
+            @content;
+        }
+    }
+
+    @if $device == s {
+        // For resolutionsless than 540px
+        @media screen and (max-width: $container-s) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,202 @@
+#sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    @include responsive(s) {
+        flex-direction: column;
+        justify-content: space-between; 
+        height: 175vh;
+    }
+}
+#content {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+
+    #content-text {
+        position: absolute;
+        top: 18%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        padding-left: 12%;
+        h1 {
+            font: 700 clamp(4vw,10rem,11rem)/1 "Roboto",sans-serif;
+            color: $white-normal;
+            margin-bottom: 18rem;
+            z-index: 2;
+            letter-spacing: 1.5px;
+            @include responsive(s) {
+                margin-bottom: 8rem;
+            }
+        }
+        p {
+            font: 400 4rem/1 "Roboto",sans-serif;
+            color: $white-normal;
+            z-index: 2;
+            line-height: 28px;
+            z-index: 5;
+    
+            margin: 2rem 1rem 3rem 0rem;
+            span {
+                font-weight: 600;
+                color: $secondary-normal;
+            }
+            @include responsive(s) {
+                font-size: 3rem;
+                margin-top: 0 auto;
+                padding: 0 px;
+            }
+        }
+        @include responsive(s) {
+            padding-left: 1rem;
+            top: 5%;
+        }
+    }
+    .svgOrbital {
+        position: absolute;
+        right: 35%;
+        bottom: -11%;
+        width: 100%;
+        @include responsive(s) {
+            bottom: 65%;
+        }
+    }
+    @include responsive(s) {
+        width: 100%;
+        text-align: justify;
+        height: 60%;
+    }
+}
+
+.orbital1 {
+    animation: orbital1 8s infinite linear;
+}
+
+.orbital2 {
+    animation: orbital2 12s infinite linear;
+}
+
+.orbital3 {
+    animation: orbital3 15s infinite linear;
+}
+
+#slide {
+    @include flexbox;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    
+    @include responsive(s) {
+        width: 100%; 
+        height: 50%;   
+    }
+    .selected {
+        border-radius: 51px;
+        background: rgba(222, 222, 222, 0.1);
+        position: absolute;
+        
+
+        @include flexbox;
+        flex-direction: column;
+        opacity: 1;
+        
+        h3 {
+            color: $white-normal;
+            margin: -1% 30px 5% 30px;
+            letter-spacing: 1.2px;
+        }
+        p {
+            color: $white-normal;
+            margin: 0 auto;  
+            font: 400 3.5rem/1.4 "Roboto",sans-serif;
+        }
+        .lastP {
+            margin-bottom: 10%;
+        }  
+    }
+
+    div {
+        border-radius: 51px;
+        background: rgba(222, 222, 222, 0.1);
+        position: absolute;
+
+        @include flexbox;
+        flex-direction: column;
+        opacity: 0;
+        transition: opacity 800ms;
+       
+        h3 {
+            color: $white-normal;
+            margin: -1% 30px 5% 30px;
+            letter-spacing: 1.2px;
+        }
+        p {
+            color: $white-normal;
+            margin: 0 auto;  
+            font: 400 3.5rem/1.4 "Roboto",sans-serif;
+        }
+        .lastP {
+            margin-bottom: 10%;
+        }        
+    }
+    
+    .svgCard {
+        width: 75%;
+    }
+    .svgCard1 {
+        width: 63%;
+    }
+    .svgCard3 {
+        width: 63%;
+    }
+    .bolinha1 {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #FF9D18 0%, #FFCF06 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        top: 93%;
+        @include responsive(s) {
+            display: none;
+        }
+    }
+    .bolinha2 {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #D1C8C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        top: 93%;
+        left: 41%;
+        @include responsive(s) {
+            display: none;
+        }
+    }
+    .bolinha3 {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #D1C8C8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        top: 93%;
+        left: 55%;
+        @include responsive(s) {
+            display: none;
+        }
+    } 
+}
+
+
+
+
+

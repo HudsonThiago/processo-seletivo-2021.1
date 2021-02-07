@@ -1,0 +1,72 @@
+#landing-page {
+    width: 100%;
+    height: 100%;
+    
+    @include flexbox;
+    
+    background: url("../img/galaxy.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include responsive(s) {
+        background: url("../img/backMobile.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.Name-Eject {
+    width: 40%;
+    height: 40%;
+    @include responsive(s) {
+        width: 60%;
+        height: 60%;
+        top: 20%;
+    left: 23%;
+    }
+}
+.Eject-E1 {
+    animation: name-animation 10s ease 0s forwards;
+}
+
+.Eject-E2 {
+    animation: name-animation 10s ease 0s forwards;
+}
+
+.Eject-J {
+    animation: name-animation 10s ease 0s forwards;
+}
+
+.Eject-C {
+    animation: name-animation 10s ease 0s forwards;
+}
+
+.Eject-T {
+    animation: name-animation 10s ease 0s forwards;
+}
+
+.svgEject {
+    svg {
+        filter: drop-shadow(0px 0px 0px rgba(247, 247, 247, 0.075))
+        drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+        animation: name-shadow 12s ease 0s forwards;
+    }
+    .planetBlue {
+        position: absolute;
+        top: 78%; 
+        width: 18%;   
+        animation: aparecer 20s ease-in  forwards;
+        @include responsive(s) {
+            top: 73%;
+            width: 35%;
+            width: 16%;
+        }
+    }
+}
+
+
+
+
+
+
